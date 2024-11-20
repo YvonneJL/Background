@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    margin-bottom: 20px;
+}
+
+html {
+    font-size: 10px;
+}
+
+main section {
+    background-color: linen;
+}
+
+main section h1 {
+    background-color: lightblue;
+}
+
+main article {
+    background-color: yellow;
+    background-image: url("../img/redsky.jpg");
+    background-size: contain;
+    /* wenn ich contain ausklammern würde, würde nur ein teil des Bildes erscheinen und den article füllen */
+}
