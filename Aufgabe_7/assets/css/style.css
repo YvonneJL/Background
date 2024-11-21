@@ -61,11 +61,11 @@ main div p {
 .Palmen {
     height: 50vh;
     width: 100vw;
-    background-image: url(../img/palmen.jpg);
+    background-image: url("../img/palmen.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top left;
-    background-attachment: scroll;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* !scroll und fixed verwirrt mich. Bei fixed funktioniert contain nicht... */
